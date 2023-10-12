@@ -25,6 +25,7 @@ function checkWin(){
             document.querySelector(".info").innerText=boxtext[e[0]].innerText + " Won";
             isGameOver=true;
             document.querySelector(".imgbox").getElementsByTagName("img")[0].style.width = "400px";
+            gameOver.play();
         }
     });
 }
